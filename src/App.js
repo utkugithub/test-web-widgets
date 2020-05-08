@@ -7,13 +7,13 @@ class App extends Component {
     componentDidMount () {
     // Include the Crisp code here, without the <script></script> tags
     window.$crisp=[];
-    window.CRISP_WEBSITE_ID="2b617e32-969e-4b91-9e68-dc1a981724e3";
-    (function(){d=document;s=d.createElement("script");
-    s.src="https://client.crisp.chat/l.js";
-    s.async=1;
-    d.getElementsByTagName("head")[0].appendChild(s);
-    })(); 
-  
+      window.CRISP_WEBSITE_ID="a19b5940-724e-4892-aa89-545ea5c6958b";
+      (function(){d=document;
+                  s=d.createElement("script");
+                  s.src="https://client.crisp.chat/l.js";
+                  s.async=1;
+                  d.getElementsByTagName("head")[0].appendChild(s);
+     })();
   };
   
   render() {
